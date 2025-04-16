@@ -7,3 +7,12 @@ dist/
 cache/
 integration/dist/
 coverage/
+
+# ignore all dotfiles/dotdirs
+.*
+
+# exceptions
+!.gitignore
+!.eslintrc.json
+!.github/
+!.github/**/*
