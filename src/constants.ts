@@ -91,10 +91,12 @@ export const REACTOR_ADDRESS_MAPPING: ReactorMapping = {
 
   998: {
     [OrderType.Dutch_V2]: "0x236dD05591AB7265C43CAe2c8AD73ee6a5ba4de4",
+    [OrderType.Relay]: "0x0000000000A4e21E2597DCac987455c48b12edBF",
   },
 
   999: {
     [OrderType.Dutch_V2]: "0x000000000000000000000000000000000000dEaD", // TO-DO
+    [OrderType.Relay]: "0x0000000000A4e21E2597DCac987455c48b12edBF",
   },
 };
 
